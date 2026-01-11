@@ -14,8 +14,8 @@ library(Rmixmod)
 
 # ACCESS TOKEN SPOTIFY -----------------------------------------------------
 
-Sys.setenv(SPOTIFY_CLIENT_ID = '0856fbc1255049cdbd2e45a40f3e244d')
-Sys.setenv(SPOTIFY_CLIENT_SECRET = 'f35ea6d6ae18419e963806afbaa188a3')
+#Sys.setenv(SPOTIFY_CLIENT_ID = 'YOURCODE')
+#Sys.setenv(SPOTIFY_CLIENT_SECRET = 'YOURCODE')
 access_token <- get_spotify_access_token()
 
 
